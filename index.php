@@ -5,8 +5,13 @@
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<header>
-		<img class="imgFondo" src="image/homeBackground-min.jpg">
+	<header class="header">
+		<div class="backImg">
+			<div class="imgFondo">
+				<img class="imgLogo" src="image/logo-min.png" alt="Logo PROESCU">
+			</div>
+			
+		</div>
 	</header>
 	<section>
 		
