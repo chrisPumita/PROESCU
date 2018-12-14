@@ -10,6 +10,7 @@
     --greenTrasparente: #56af31e3;
     --greenTrasp: #56af3178;
     --google: #4F6A77;
+    --trasnparentFondo: rgba(0, 0, 0, .5);
    	--font1: 'Poiret One', cursive;
     --font2: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	--font3: 'Love Ya Like A Sister', cursive;;
@@ -49,6 +50,14 @@ a{
     background: -ms-linear-gradient(top, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
     background: linear-gradient(to bottom, rgba(38,38,38,1) 0%, rgba(32,32,32,0.8) 20%, rgba(23,23,23,0.8) 50%, rgba(10,10,10,0.8) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#0a0a0a', GradientType=0 );
+}
+.colorSemiDegradado {
+    background: rgba(143,143,143,0.3);
+    background: -moz-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(143,143,143,0.3)), color-stop(25%, rgba(0,0,0,0.37)), color-stop(66%, rgba(0,0,0,0.47)), color-stop(100%, rgba(31,31,31,0.56)));
+    background: -webkit-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
+    background: -o-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
+    background: -ms-linear-gradient(top, rgba(143,143,143,0.3) 0%, rgba(0,0,0,0.37) 25%, rgba(0,0,0,0.47) 66%, rgba(31,31,31,0.56) 100%);
 }
 
 .header{
@@ -245,7 +254,134 @@ a{
 .prograImg{
 	width: 100%;
 }
+.cursos{
+	padding: 5%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
+.containerCatalog {
+    width: 100%;
+    display: grid;
+    grid-template-columns:auto auto;
+}
+.txtAcor {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: darkgrey;
+    font-size: 2em !important;
+    text-align: center;
+    color: var(--secundary);
+}
+.ContCuentas {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 90%;
+}
+.prod {
+    width: 100px;
+}
+.txtDesCurso{
+	font-size: 20px;
+}
+.btnAccesCurso{
+	width: 250px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 21px 39px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.redesNotice {
+    height: 550px;
+    display: contents;
+    position: relative;
+    background-color: var(--google);
+    position: relative;
+    background: url(../image/codefondo-min.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.contRedSocial{
+	width: 40%;
+    height: 80%;
+    position: relative;
+    padding-top: 2%;
+}
+.contRed{
+    display: contents;
+}
+.rssCont{
+    width: 56%;
+    height: auto;
+    margin: 2%;
+    padding-right: 0%;
+    position: relative;
+    overflow: auto;
+}
+
+.noticeTitle{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.newContent{
+
+	display: flex;
+	width: 100%;
+	color: beige;
+    font-size: xx-large;
+    height: auto;
+    display: flex;
+    text-align: -webkit-left;
+    font-size: .8em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+}
+.imgRedes {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+.txtData {
+    color: beige;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.txtDataContacto {
+    height: auto;
+    display: flex;
+    text-align: -webkit-left;
+    font-size: .8em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+}
+.funcion{
+	text-align: center;
+	font-size: 2em;
+	color: var(--secundary);
+}
 footer {
 	text-align: center;
 	color: var(--google);
@@ -253,4 +389,22 @@ footer {
 	padding-right: 20%;
 	padding-top: 5%;
 	padding-bottom: 3%;
+}
+
+.txtComo {
+    color: var(--secundary);
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 26px;
+}
+
+.imgInstrucciones {
+    width: 60px;
+    height: auto;
+    margin-left: 10%;
+}
+
+.btnHome:hover, .boton:hover, .btnAccesCurso:hover{
+    border: 3px solid var(--textHover);
+    background-color: var(--secundary);
 }
