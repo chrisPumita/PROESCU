@@ -408,3 +408,36 @@ footer {
     border: 3px solid var(--textHover);
     background-color: var(--secundary);
 }
+
+/*OYTRA PAG*/
+.txtBorder{
+	width: 35%;
+    height: 700px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5e6e68f;
+}
+
+.contCursosInfo{
+	display: flex;
+}
+
+.txtTopics{
+	display: block;
+	width: 55%;
+	height: 700px;
+	overflow: auto;
+	padding: 5%;
+	background-color: var(--secundary);
+	color: cornsilk;
+}
+
+.txtObj{
+	font-size: 1.3em;
+	color: #fffff;
+}
+
+.listaTemario{
+	font-size: 1.3em;
+}

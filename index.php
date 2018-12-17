@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>PROESCU Inicio</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style/style.css">
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
@@ -20,12 +23,12 @@
 		<div class="ContTop1 colorSemiDegradado">
 			<div class="backImg">
 				<div class="imgFondo">
-					<img class="imgLogo" src="image/logo-min.png" alt="Logo PROESCU">
+					<a href="../index.php"><img class="imgLogo" src="image/logo-min.png" alt="Logo PROESCU"></a>
 					<div class="ContMenu">
 						<a href="#nosotros" class="boton">¿QUIENES SOMOS?</a>
 						<a href="#cursos" class="boton">CURSOS</a>
 						<a href="#noticias" class="boton">NOTICIAS</a>
-						<a href="#contacto" class="boton">CONTACTO</a>
+						<a href="#contacto" class="boton">INSTRUCCIONES</a>
 					</div>
 				</div>
 			</div>
@@ -33,7 +36,7 @@
 		<div class="ContTop2 colorSemiDegradado">
 			<h1 class="titleHome">¡Por el gusto de aprender y enseñar!</h1>
 			<h2 class="SubTitleHome">Un concepto de estudiantes para estudiantes</h2>
-			<a class="btnContactar" href="#contacto"><button class="btnHome">CONTACTO</button></a>
+			<a class="btnContactar" href="#contacto"><button class="btnHome">VER COMO</button></a>
 		</div>
 	</header>
 	<section>
@@ -69,7 +72,7 @@
 		</article>
 		<article id="nosotros" class="aboutUs">
 			<div class="contAbout">
-				<p class="textPizarra">PROESCU es una comunidad de alumnos para alumnos donde el apoyo mutuo es el motor de la plataforma. Siempre hay temas por aprender y muchos están dispuestos a asesorar, o bien, tu deseas mostrarle a la comunidad tu conocimiento. Inscríbete como alumno y toma los cursos que desees en vivo, inscríbete como tutor y programa una o varias sesiones de tutoría o cursos.</p>
+				<p class="textPizarra">PROESCU Programa Escolar de Cursos es una comunidad de alumnos para alumnos donde el apoyo mutuo es el motor de la plataforma. Siempre hay temas por aprender y muchos están dispuestos a asesorar. Inscríbete como alumno y toma los cursos que desees en vivo, inscríbete como tutor y programa una o varias sesiones de tutoría o cursos.</p>
 			</div>
 			<div class="contimgPro">
 				<img class="prograImg" src="image/programas.png" alt="Lenguajes de programacion">
@@ -92,7 +95,7 @@
 						TUTOR: Christian RCGS <br>
 						COSTO: CURSO PILOTO <br>
 					</p>
-					<a class="btnContactar" href="#"><button class="btnAccesCurso">SABER MÁS</button></a>
+					<a class="btnContactar" href="cursos/proc17d18.html"><button class="btnAccesCurso">VER TEMARIO</button></a>
 				</div>
 				<div class="area-g0 ContCuentas txtAcor productosName">
 					<h1>DISEÑO WEB</h1>
@@ -102,7 +105,7 @@
 						LUN, MIE, VIE <br>
 						20 hrs. <br><br>
 						INICIA: 2 ENE 2019 <br>
-						DISPONIBILIDAD: 6/10<br>
+						DISPONIBILIDAD: 8/10<br>
 						<br>
 						TUTOR: Christian RCGS <br>
 						COSTO: CURSO PILOTO <br>
@@ -159,7 +162,7 @@
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/gmail.png">
-				<p class="txtComo">Manda un correo a para inscribirte con los siguientes datos: 
+				<p class="txtComo">Manda un correo a <strong>proescu.contacto@gmail.com</strong> para inscribirte con los siguientes datos: 
 					<br>• Nombre (Solo un nombre y un apellido)</ul>
 					<br>• Alias (como te gusta que te llamemos)</ul>
 					<br>• Correo (debe ser GMAIL)</ul>
@@ -171,7 +174,7 @@
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/hangouts.png">
-				<p class="txtComo">Te agregaremos al grupo de GMAIL de video conferencia de Hangouts. Estate pendiente de las horas de sesión. Entra al curso desde tu cuenta de GMAIL</p>
+				<p class="txtComo">Te agregaremos al grupo de GMAIL de video conferencia de Hangouts. Estate pendiente de las horas de sesión. Entra al curso desde tu cuenta de GMAIL.</p>
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/notepad.png">
@@ -179,7 +182,7 @@
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/question.png">
-				<p class="txtComo">Pregunta dudas y si tienes sugerencias estamos para ayudarte. Y si no lo sabemos, pues le preguntamos a San Google</p>
+				<p class="txtComo">Pregunta si tienes alguna duda o si tienes sugerencias no dudes en decirnos. Y si no podemos ayudarte en el momento lo investigamos y le damos seguimiento por correo y/o en la sesion.</p>
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/love.png">
@@ -187,7 +190,7 @@
 			</div>
 			<div class="txtDataContacto">
 				<img class="imgInstrucciones" src="image/icons/mortarboard.png">
-				<p class="txtComo">¿Quieres formar parte!, ¡sé un tutor también!, espera noticias de ello.  </p>
+				<p class="txtComo">¿Quieres formar parte!, ¡sé un tutor también!, espera noticias de ello.</p>
 			</div>
 		</div>
 	</section>
